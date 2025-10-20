@@ -7,7 +7,28 @@ h1 {
     color: white;
     font-size: 60px;
 }
-/* Start here by styling the main div section */
+
 .main {
-    
+    background-color:beige;
+    width: 490px;
+    padding: 100px;
+    margin: auto;
+    margin-top: 30px;
+    border: 10px dotted rgb(255, 140, 0);
+    font-size: 40px;
+}
+
+.square::after {
+    content: "??";
+}
+
+.square {
+    padding: 35px;
+}
+
+.square:hover {
+    background-color: rgb(253, 184, 56);
+    border-radius: 40px;
+    padding: 2px;
+    border: 2px rgb(255, 140, 0);
 }
